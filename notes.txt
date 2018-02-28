@@ -1,0 +1,8 @@
+About Webpack.config.js
+->webpack configuration:
+    1.devtool:'inline-source-map' - is used for giving line numbers
+    2.entry : - it is the place where the webpack is going to look for files
+    output - it is where we can find what to output.we give the file name here which is the standard
+    resolve :{moduleDirectories:['node_modules','src']} - it is the place where webpack looks what files need to be bundled.
+    module: {loaders} - this is where webpack is going to define loaders .loaders are nothing but the modules that we use for react to load
+    plugins: we usually use webpack.NoErrorsPlugin - which does not allow webpack to compile if there are any errors
